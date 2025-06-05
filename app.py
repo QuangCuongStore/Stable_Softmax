@@ -23,7 +23,7 @@ if st.button("Calculate Stable Softmax"):
     stable_softmax_v3 = e_v3 / total_exp
 
     # Hiển thị kết quả
-    st.write(f"Stable softmax for v1: {stable_softmax_v1:.5f}")
-    st.write(f"Stable softmax for v2: {stable_softmax_v2:.5f}")
-    st.write(f"Stable softmax for v3: {stable_softmax_v3:.5f}")
-    st.success(f"Stable softmax: {stable_softmax_v1:.5f} {stable_softmax_v2:.5f} {stable_softmax_v3:.5f}")
+    st.write(f"Stable softmax for v1: {stable_softmax_v1:.8f}")
+    st.write(f"Stable softmax for v2: {stable_softmax_v2:.8f}")
+    st.write(f"Stable softmax for v3: {stable_softmax_v3:.8f}")
+    st.success(f"Stable softmax: {stable_softmax_v1:.8f} {stable_softmax_v2:.8f} {stable_softmax_v3:.8f}")
